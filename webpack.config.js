@@ -1,3 +1,5 @@
+var webpack = require('webpack');
+
 module.exports = {
   resolve: {
     extensions: ["", ".coffee", ".js"]
@@ -7,8 +9,19 @@ module.exports = {
   },
   output: {
     path: './dist/',
-    filename: 'Portal.js',
     library: 'Portal',
     libraryTarget: 'umd'
-  }
+  },
+  module: {
+    loaders: [
+      {
+        test: /\.js$/,
+        exclude: /node_modules/,
+        loader: 'babel-loader?stage=0&optional=runtime'
+      }
+    ]
+  },
+  plugins: [
+    new webpack.NoErrorsPlugin()
+  ]
 }
