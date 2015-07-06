@@ -16,7 +16,7 @@
     "jquery": "^2.1.4",
     "underscore": "^1.8.3"
   },
-  "author": "MAP-Team",
+  "author": "Portal.js Team",
   "devDependencies": {
     "adm-zip": "^0.4.7",
     "browserify": "^10.2.4",
