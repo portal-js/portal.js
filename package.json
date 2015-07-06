@@ -1,13 +1,14 @@
 {
   "name": "portaljs",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "main": "src/portal.js",
   "description": "Library to create portal like UIs",
   "license": "Apache-2.0",
   "author": "Portal.js Team",
+  "homepage": "https://github.com/portal-js/portal.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com:portal-js/portal.js.git"
+    "url": "git://github.com/portal-js/portal.js.git"
   },
   "keywords": [
     "JS",
