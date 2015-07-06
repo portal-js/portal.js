@@ -13,7 +13,7 @@ This object is responsible of manipulating the actual DOM the way it needs to di
 ```javascript
 {
     show: function(
-        selectCallback: (name, width, title) => Promise[()], 
+        selectCallback: (name, width, title) => Promise[()],
         cancelCallback: () => ()
     )
 }
@@ -21,5 +21,4 @@ This object is responsible of manipulating the actual DOM the way it needs to di
 
 You can get a default catalog object at `Portal.ChooseWidgetPopup`.
 
-The source can be found [here](https://git-pharmacy.emea.cegedim.grp:8443/blob/?f=src/choose.js&r=framework/portaljs.git&h=master) 
-
+The source can be found [here](https://github.com/portal-js/portal.js/blob/master/src/choose.js) 
