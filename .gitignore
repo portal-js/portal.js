@@ -1,0 +1,7 @@
+.DS_Store
+node_modules
+_site
+/dist
+/target
+.idea
+npm-debug.log

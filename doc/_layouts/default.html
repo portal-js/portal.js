@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8' />
+        <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+        <meta name="description" content="A Javascript library to build portals" />
+        <link rel="stylesheet" type="text/css" media="screen" href="/portaljs/css/stylesheet.css">
+        <link rel="stylesheet" type="text/css" media="screen" href="./css/stylesheet.css">
+        <title>Portal.js</title>
+        <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+        <style>
+            #logo {
+              display: block;
+              position: absolute;
+              top: 35px;
+              right: -25px;
+              z-index: 10;
+              width: 250px;
+              height: 175px;
+              padding: 10px 50px 10px 10px;
+              background: url('./portal-white.png') no-repeat 100% 100%;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="header_wrap" class="outer">
+            <header class="inner">
+              <a id="forkme_banner" href="https://github.com/portal-js/portal.js">View on Github</a>
+              <h1 id="project_title"><a href="/portaljs" style="text-decoration: none; color: #FFFFFF;">Portal.js</a></h1>
+              <h3 id="project_tagline">A JS library to build portals ...</h3>
+              <div id="logo"></div>
+            </header>
+        </div>
+        <div id="main_content_wrap" class="outer">
+            {{ content }}
+        </div>
+        <div id="footer_wrap" class="outer">
+            <footer class="inner">
+                <p class="copyright">©  2015, Portal.js</p>
+            </footer>
+        </div>
+    </body>
+</html>
