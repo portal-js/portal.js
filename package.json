@@ -1,6 +1,6 @@
 {
   "name": "portal",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "main": "src/portal.js",
   "description": "Library to create portal like UIs",
   "scripts": {
