@@ -14,7 +14,7 @@ To use the lib, write something like :
 var portal = Portal.bootstrap({
     userId: '1234567890',
     adminMode: true,
-    apiRootUrl: '/portal/services', 
+    apiRootUrl: '/portal/services',
     container: 'myDivContainer'
 });
 
@@ -22,7 +22,7 @@ var portal = Portal.bootstrap({
 
 This code will render the widget UI in the `#myDivContainer` div.
 
-![Portal.js portal](/portaljs/portal.png)
+![Portal.js portal](./portal.png)
 
 Examples
 ========
@@ -164,7 +164,7 @@ Portal.bootstrap({
 });
 ```
 
-![Portal.js widget in liferay](/portaljs/liferay.png)
+![Portal.js widget in liferay](./liferay.png)
 
 The Event Bus
 ===================
