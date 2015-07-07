@@ -60,7 +60,7 @@ The lib will fetch some data from server to show widget. The expected structure 
 ```javascript
 [{                                               // a tab
     "id": "8"
-    "title": "Accueil",
+    "title": "Home",
     "position": 0,
     "rows": [{                                   // a row
         "id": "12"
@@ -68,18 +68,18 @@ The lib will fetch some data from server to show widget. The expected structure 
         "position": 2,
         "widgets": [{                            // a widget
             "id": "29"
-            "name": "Evol. CA HT",
+            "name": "Stock prices",
             "position": 0,
-            "jsWidgetName": "ProgressionCA",
+            "jsWidgetName": "K8Aspfk54JYIBAvHHJJEfhrCwZ",
             "width": 8,
             "preferences": {                     // a preference
                 "title": "Yeah"
             },
         }, {                                     // a widget
             "id": "28"
-            "name": "Suivi de la substitution",
+            "name": "News feed",
             "position": 1,
-            "jsWidgetName": "Substitution",
+            "jsWidgetName": "aDDedHrBu13hYH7AtuAVHlDETZkd97UGFwQHcI",
             "width": 4,
             "preferences": {},
         }],
