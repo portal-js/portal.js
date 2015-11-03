@@ -327,7 +327,7 @@ exports.bootstrap = function(options) {
                     Elem.el('div', { className: 'btn-group pull-right', style: { textAlign: 'right' } }, [
                         // TODO : hide if edit mode
                         common.ifPredicate((admin && component.hasPrefs) || (!admin && component.hasPrefs && component.alwaysShowPrefs), Elem.el('button', { className: 'btn btn-primary btn-mini', title: 'Préférences', onclick: _showPrefs }, Elem.el('i', { className: 'icon-cog icon-white' }, []))),
-                        common.ifPredicate(admin && opts.displayMoveWidget, Elem.el('button', { className: 'btn btn-inverse btn-mini', title: 'Déplacer', draggable: 'true', ondragstart: _drag, ondragend: _dragend }, Elem.el('i', { className: 'icon-move icon-white' }, []))),
+                        common.ifPredicate(admin && opts.displayMoveWidget, Elem.el('a', { href: '#', className: 'btn btn-inverse btn-mini', title: 'Déplacer', draggable: 'true', ondragstart: _drag, ondragend: _dragend }, Elem.el('i', { className: 'icon-move icon-white' }, []))),
                         common.ifPredicate(admin, Elem.el('button', { className: 'btn btn-danger btn-mini', title: 'Supprimer', onclick: _removeWidget }, Elem.el('i', { className: 'icon-remove icon-white' }, [])))
                     ])
                 ]
