@@ -1,6 +1,6 @@
 {
   "name": "portaljs",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "main": "src/portal.js",
   "description": "Library to create portal like UIs",
   "license": "Apache-2.0",

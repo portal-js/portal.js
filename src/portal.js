@@ -796,6 +796,9 @@ exports.bootstrap = function(options) {
 };
 
 exports.registerWidget = Registry.registerWidget;
+exports.registeredWidget = function(name) {
+  return Registry.registeredWidgets(name);
+};
 exports.Widget = Widget;
 exports.Portlet = Widget;
 exports.Portlé = Widget;
