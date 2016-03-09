@@ -356,7 +356,7 @@ exports.bootstrap = function(options) {
 
         if (bodyMode === true && !component.alwaysShowPrefs) {
             return Elem.el('div', { className: 'row-fluid', dataFrame: id },
-                Elem.el('div', { className: 'span12 portal-widget' }, [
+                Elem.el('div', { className: 'span12 portal-widget', dataWidgetId: widget.jsWidgetName }, [
                     WidgetBar(admin, widget.name, widget, opts, widgetId, prefId, id, row, component),
                     Elem.el('div', { className: 'row-fluid' },
                         Elem.el('div', { id: widgetId, className: 'span12 portal-widget-body' }, [])
@@ -369,7 +369,7 @@ exports.bootstrap = function(options) {
                 Elem.el('div', {className:"flip-container"},
                     Elem.el('div', {className:'flipper'},
                         [Elem.el('div', {className:'front'},
-                            Elem.el('div', { className: 'span12 portal-widget' }, [
+                            Elem.el('div', { className: 'span12 portal-widget', dataWidgetId: widget.jsWidgetName }, [
                                 WidgetBar(admin, widget.name, widget, opts, widgetId, prefId, id, row, component),
                                 Elem.el('div', { className: 'row-fluid' },
                                     Elem.el('div', { id: widgetId, className: 'span12 portal-widget-body' }, [])
@@ -387,7 +387,7 @@ exports.bootstrap = function(options) {
             Elem.el('div', {className:"flip-container"},
                 Elem.el('div', {className:'flipper'},
                     [Elem.el('div', {className:'front'},
-                        Elem.el('div', { className: 'span12 portal-widget' }, [
+                        Elem.el('div', { className: 'span12 portal-widget', dataWidgetId: widget.jsWidgetName }, [
                             WidgetBar(admin, widget.name, widget, opts, widgetId, prefId, id, row, component),
                             Elem.el('div', { className: 'row-fluid' },
                                 Elem.el('div', { id: widgetId, className: 'span12 portal-widget-body' }, [])
